@@ -1,0 +1,33 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for flexbox layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Column layout */
+.column,
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Title styles */
+.column-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* List item spacing */
+.column li,
+.social-media li {
+    margin-bottom: 8px;
+}

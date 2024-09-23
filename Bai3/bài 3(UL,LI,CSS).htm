@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Menu Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .column {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .column-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .column li, .social-media li {
+            margin-bottom: 8px;
+            line-height: 1.5; /* Thêm khoảng cách giữa tất cả các dòng */
+        }
+        .social-media {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .social-media li {
+            display: flex;
+            align-items: center;
+        }
+        .social-media i {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <ul class="social-media">
+            <li><strong>Figma</strong></li>
+            <li>English (US)</li>
+            <li><i class="fab fa-twitter"></i> Twitter</li>
+            <li><i class="fab fa-youtube"></i> YouTube</li>
+            <li><i class="fab fa-instagram"></i> Instagram</li>
+            <li><i class="fab fa-facebook"></i> Facebook</li>
+        </ul>
+
+        <ul class="column">
+            <li class="column-title">Use cases</li>
+            <li>UI design</li>
+            <li>UX design</li>
+            <li>Prototyping</li>
+            <li>Graphic design</li>
+            <li>Wireframing</li>
+            <li>Brainstorming</li>
+            <li>Templates</li>
+            <li>Remote design</li>
+        </ul>
+
+        <ul class="column">
+            <li class="column-title">Explore</li>
+            <li>Design features</li>
+            <li>Prototyping features</li>
+            <li>Design systems features</li>
+            <li>Collaboration features</li>
+            <li>FigJam</li>
+            <li>Pricing</li>
+            <li>Enterprise</li>
+            <li>Students and educators</li>
+            <li>Customers</li>
+            <li>Security</li>
+            <li>Integrations</li>
+            <li>Contact</li>
+        </ul>
+
+        <ul class="column">
+            <li class="column-title">Resources</li>
+            <li>Blog</li>
+            <li>Best practices</li>
+            <li>Support</li>
+            <li>Developers</li>
+            <li>Learn design</li>
+            <li>Downloads</li>
+            <li>What's new</li>
+            <li>Releases</li>
+            <li>Careers</li>
+            <li>About us</li>
+            <li>Agency partners</li>
+            <li>Privacy</li>
+        </ul>
+
+        <ul class="column">
+            <li class="column-title">Compare</li>
+            <li>Sketch</li>
+            <li>Adobe XD</li>
+            <li>Invision Studio</li>
+            <li>Framer</li>
+            <li>Design on Windows</li>
+            <li>Miro</li>
+        </ul>
+    </div>
+
+</body>
+</html>
